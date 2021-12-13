@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  introductionVC.swift
 //  Salma
 //
 //  Created by spark inc on 08/05/1443 AH.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class introductionVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
