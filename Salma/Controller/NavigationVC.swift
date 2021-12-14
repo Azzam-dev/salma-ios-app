@@ -47,7 +47,7 @@ class NavigationVC: UIViewController {
     }
     
     func setupCurvedView() {
-        let width = bottomBarView.frame.width + 15
+        let width = view.frame.width
         let height = bottomBarView.frame.height
         
         let path = UIBezierPath(rect: bottomBarView.frame)
@@ -76,7 +76,7 @@ class NavigationVC: UIViewController {
         shapeLayer.path = path.cgPath
         shapeLayer.fillColor = UIColor.white.cgColor
         
-        bottomBarView.layer.addSublayer(shapeLayer)
+        bottomBarView.layer.insertSublayer(shapeLayer, at: 0)
     }
     
     
