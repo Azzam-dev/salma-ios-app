@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB0DB76D276906F400B61365 /* RecommendationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0DB76C276906F400B61365 /* RecommendationCell.swift */; };
 		DB48FE7A2766257700958288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48FE792766257700958288 /* AppDelegate.swift */; };
 		DB48FE7C2766257700958288 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48FE7B2766257700958288 /* SceneDelegate.swift */; };
 		DB48FE7E2766257700958288 /* IntroductionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48FE7D2766257700958288 /* IntroductionVC.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB0DB76C276906F400B61365 /* RecommendationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationCell.swift; sourceTree = "<group>"; };
 		DB48FE762766257700958288 /* Salma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB48FE792766257700958288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB48FE7B2766257700958288 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB0DB76B276906CE00B61365 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DB0DB76C276906F400B61365 /* RecommendationCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		DB48FE6D2766257700958288 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 				DB48FE7D2766257700958288 /* IntroductionVC.swift */,
 				DB9C92672767533300F25C39 /* SelectGenderVC.swift */,
 				DB9C9269276754D400F25C39 /* SelectDateVC.swift */,
+				DB0DB76B276906CE00B61365 /* Cells */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -206,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB9C9272276767FC00F25C39 /* ProfileVC.swift in Sources */,
+				DB0DB76D276906F400B61365 /* RecommendationCell.swift in Sources */,
 				DBD275FD27665C48003BD6FD /* MainExtensions.swift in Sources */,
 				DBD275FF27665C48003BD6FD /* RevealingSplashView.swift in Sources */,
 				DB48FE7E2766257700958288 /* IntroductionVC.swift in Sources */,
