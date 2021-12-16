@@ -25,10 +25,11 @@
 		DB9C9270276767EE00F25C39 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9C926F276767EE00F25C39 /* HomeVC.swift */; };
 		DB9C9272276767FC00F25C39 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9C9271276767FC00F25C39 /* ProfileVC.swift */; };
 		DBB88C94276B4288003C96B1 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB88C93276B4288003C96B1 /* Gender.swift */; };
+		DBB88C96276BCA50003C96B1 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB88C95276BCA50003C96B1 /* Recommendation.swift */; };
 		DBD275FD27665C48003BD6FD /* MainExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD275FA27665C48003BD6FD /* MainExtensions.swift */; };
 		DBD275FE27665C48003BD6FD /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD275FB27665C48003BD6FD /* GradientView.swift */; };
 		DBD275FF27665C48003BD6FD /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD275FC27665C48003BD6FD /* RevealingSplashView.swift */; };
-		DBF9D19D276B3E7A00542CD4 /* FamilyMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF9D19C276B3E7A00542CD4 /* FamilyMembers.swift */; };
+		DBF9D19D276B3E7A00542CD4 /* FamilyMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF9D19C276B3E7A00542CD4 /* FamilyMember.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,10 +53,11 @@
 		DB9C926F276767EE00F25C39 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		DB9C9271276767FC00F25C39 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		DBB88C93276B4288003C96B1 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		DBB88C95276BCA50003C96B1 /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
 		DBD275FA27665C48003BD6FD /* MainExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainExtensions.swift; sourceTree = "<group>"; };
 		DBD275FB27665C48003BD6FD /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		DBD275FC27665C48003BD6FD /* RevealingSplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealingSplashView.swift; sourceTree = "<group>"; };
-		DBF9D19C276B3E7A00542CD4 /* FamilyMembers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMembers.swift; sourceTree = "<group>"; };
+		DBF9D19C276B3E7A00542CD4 /* FamilyMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMember.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +140,8 @@
 		DB9C92642767501700F25C39 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DBF9D19C276B3E7A00542CD4 /* FamilyMembers.swift */,
+				DBF9D19C276B3E7A00542CD4 /* FamilyMember.swift */,
+				DBB88C95276BCA50003C96B1 /* Recommendation.swift */,
 				DBB88C93276B4288003C96B1 /* Gender.swift */,
 			);
 			path = Model;
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB88C96276BCA50003C96B1 /* Recommendation.swift in Sources */,
 				DB6488C4276A881D0031259C /* PregnancyStatusVC.swift in Sources */,
 				DB9C9272276767FC00F25C39 /* ProfileVC.swift in Sources */,
 				DB0DB76D276906F400B61365 /* RecommendationCell.swift in Sources */,
@@ -255,7 +259,7 @@
 				DB9C926A276754D400F25C39 /* SelectDateVC.swift in Sources */,
 				DB6488C1276A7E8A0031259C /* UserDefaultsService.swift in Sources */,
 				DBD275FE27665C48003BD6FD /* GradientView.swift in Sources */,
-				DBF9D19D276B3E7A00542CD4 /* FamilyMembers.swift in Sources */,
+				DBF9D19D276B3E7A00542CD4 /* FamilyMember.swift in Sources */,
 				DB48FE7A2766257700958288 /* AppDelegate.swift in Sources */,
 				DB48FE7C2766257700958288 /* SceneDelegate.swift in Sources */,
 				DB9C9270276767EE00F25C39 /* HomeVC.swift in Sources */,

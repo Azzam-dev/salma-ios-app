@@ -103,7 +103,7 @@ class NavigationVC: UIViewController {
         }
         
         if sender.tag != 2 {
-            navigationIcons[sender.tag].tintColor = .systemIndigo
+            navigationIcons[sender.tag].tintColor = .systemPurple
             navigationLabels[sender.tag].font = UIFont.systemFont(ofSize: 14, weight: .semibold)
         }
         
