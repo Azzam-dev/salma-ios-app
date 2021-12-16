@@ -12,7 +12,7 @@
         <!--IntroductionVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="IntroductionVC" customModule="Salma" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="IntroductionVC" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="IntroductionVC" customModule="Salma" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,16 +32,16 @@
                                 </constraints>
                             </imageView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZiH-vI-KLU" customClass="DesignableView" customModule="Salma" customModuleProvider="target">
-                                <rect key="frame" x="37.666666666666657" y="415.33333333333326" width="300" height="312.66666666666674"/>
+                                <rect key="frame" x="37.666666666666657" y="422" width="300" height="306"/>
                                 <subviews>
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qXo-m2-Oo0">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="312.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="306"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="e70-io-JkL">
-                                            <rect key="frame" x="0.0" y="0.0" width="300" height="312.66666666666669"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="306"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="88c-mH-o9J">
-                                                    <rect key="frame" x="10" y="10" width="280" height="292.66666666666669"/>
+                                                    <rect key="frame" x="10" y="10" width="280" height="286"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello !" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEX-ak-dEw">
                                                             <rect key="frame" x="0.0" y="0.0" width="280" height="20.333333333333332"/>
@@ -50,36 +50,37 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihl-ue-aSN">
-                                                            <rect key="frame" x="0.0" y="35.333333333333378" width="280" height="101.66666666666669"/>
+                                                            <rect key="frame" x="0.0" y="35.333333333333314" width="280" height="95"/>
                                                             <string key="text">This is a tool to help you find the recommended cancer screening it does not diagnose or prevent treatment recommended cancer testing can help save your life</string>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommended cancer testing can help save your life." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlc-EC-0Fc">
-                                                            <rect key="frame" x="0.0" y="152.00000000000006" width="280" height="40.666666666666657"/>
+                                                            <rect key="frame" x="0.0" y="145.33333333333337" width="280" height="40.666666666666657"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zmQ-0X-zOw">
-                                                            <rect key="frame" x="0.0" y="207.66666666666669" width="280" height="30"/>
+                                                            <rect key="frame" x="0.0" y="201" width="280" height="30"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="0kD-a1-ade"/>
                                                             </constraints>
                                                         </view>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jUc-b8-sG7">
-                                                            <rect key="frame" x="0.0" y="252.66666666666669" width="280" height="40"/>
+                                                            <rect key="frame" x="0.0" y="246" width="280" height="40"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="40" id="rYU-nR-Jul"/>
                                                             </constraints>
                                                             <color key="tintColor" systemColor="systemIndigoColor"/>
                                                             <state key="normal" title="Button"/>
-                                                            <buttonConfiguration key="configuration" style="tinted" title="Next">
+                                                            <buttonConfiguration key="configuration" style="tinted" title="Start">
                                                                 <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="25"/>
                                                             </buttonConfiguration>
                                                             <connections>
+                                                                <action selector="didPressStartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fum-Tm-GQB"/>
                                                                 <segue destination="WVu-k8-8ZU" kind="show" id="NsC-Ld-b1I"/>
                                                             </connections>
                                                         </button>
@@ -132,7 +133,7 @@
         <!--Select GenderVC-->
         <scene sceneID="VLZ-Z2-PLO">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="WVu-k8-8ZU" customClass="SelectGenderVC" customModule="Salma" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SelectGenderVC" modalPresentationStyle="fullScreen" id="WVu-k8-8ZU" customClass="SelectGenderVC" customModule="Salma" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AXP-mL-L3i">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -194,7 +195,8 @@
                                                                         <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="25"/>
                                                                     </buttonConfiguration>
                                                                     <connections>
-                                                                        <segue destination="BYZ-38-t0r" kind="show" id="h79-F9-xa0"/>
+                                                                        <action selector="didPressBackButton:" destination="WVu-k8-8ZU" eventType="touchUpInside" id="u1t-m8-BUc"/>
+                                                                        <segue destination="BYZ-38-t0r" kind="show" id="RsJ-Ni-HRg"/>
                                                                     </connections>
                                                                 </button>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1NR-5z-n4d">
@@ -208,7 +210,7 @@
                                                                         <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="25"/>
                                                                     </buttonConfiguration>
                                                                     <connections>
-                                                                        <segue destination="gRh-ri-tYX" kind="show" id="Uoy-cv-e0e"/>
+                                                                        <action selector="didPressNextButton:" destination="WVu-k8-8ZU" eventType="touchUpInside" id="sHG-cT-RLn"/>
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
@@ -261,10 +263,10 @@
             </objects>
             <point key="canvasLocation" x="1081" y="135"/>
         </scene>
-        <!--View Controller-->
+        <!--Pregnancy StatusVC-->
         <scene sceneID="rJT-Xf-EEc">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="sXS-SC-RrX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PregnancyStatusVC" modalPresentationStyle="fullScreen" id="sXS-SC-RrX" customClass="PregnancyStatusVC" customModule="Salma" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jWg-4v-doX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -295,7 +297,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="1PT-bJ-nB7">
                                                     <rect key="frame" x="10" y="10" width="280" height="138"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you pregnant ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2H-R7-GQv">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you pregnant ?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2H-R7-GQv">
                                                             <rect key="frame" x="0.0" y="0.0" width="280" height="36"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                             <nil key="textColor"/>
@@ -310,6 +312,9 @@
                                                                 <segment title="Yes"/>
                                                                 <segment title="No"/>
                                                             </segments>
+                                                            <connections>
+                                                                <action selector="pregnantSegmentControl:" destination="sXS-SC-RrX" eventType="valueChanged" id="8I6-AG-zFX"/>
+                                                            </connections>
                                                         </segmentedControl>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="cp1-TG-OzO">
                                                             <rect key="frame" x="0.0" y="98" width="280" height="40"/>
@@ -326,7 +331,8 @@
                                                                         <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="25"/>
                                                                     </buttonConfiguration>
                                                                     <connections>
-                                                                        <segue destination="gRh-ri-tYX" kind="show" id="GNu-h5-O8q"/>
+                                                                        <action selector="didPressBackButton:" destination="sXS-SC-RrX" eventType="touchUpInside" id="Q29-Rw-RDc"/>
+                                                                        <segue destination="gRh-ri-tYX" kind="show" id="jwY-LS-ucp"/>
                                                                     </connections>
                                                                 </button>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz0-7w-zFW">
@@ -340,7 +346,8 @@
                                                                         <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="25"/>
                                                                     </buttonConfiguration>
                                                                     <connections>
-                                                                        <segue destination="qcO-V9-Q6T" kind="show" id="Q6p-Xc-PIz"/>
+                                                                        <action selector="didPressNextButton:" destination="sXS-SC-RrX" eventType="touchUpInside" id="WkW-jE-7ly"/>
+                                                                        <segue destination="qcO-V9-Q6T" kind="show" id="Gce-kH-GRj"/>
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
@@ -385,15 +392,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iVw-cZ-eSY"/>
+                    <connections>
+                        <outlet property="questionLabel" destination="I2H-R7-GQv" id="kEL-1B-Xph"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epy-cK-fAb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2684" y="136"/>
         </scene>
-        <!--View Controller-->
+        <!--Smoking StatusVC-->
         <scene sceneID="W1H-F3-emr">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="qcO-V9-Q6T" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SmokingStatusVC" modalPresentationStyle="fullScreen" id="qcO-V9-Q6T" customClass="SmokingStatusVC" customModule="Salma" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fgS-dv-aBA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -443,7 +453,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="8Ml-Os-1fH">
                                                     <rect key="frame" x="10" y="10" width="280" height="138"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you smoke ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqE-ON-udg">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you smoke ?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqE-ON-udg">
                                                             <rect key="frame" x="0.0" y="0.0" width="280" height="36"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                             <nil key="textColor"/>
@@ -458,6 +468,9 @@
                                                                 <segment title="Yes"/>
                                                                 <segment title="No"/>
                                                             </segments>
+                                                            <connections>
+                                                                <action selector="smokingSegmentControl:" destination="qcO-V9-Q6T" eventType="valueChanged" id="U4L-3D-WSg"/>
+                                                            </connections>
                                                         </segmentedControl>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="C4P-as-gtb">
                                                             <rect key="frame" x="0.0" y="98" width="280" height="40"/>
@@ -474,7 +487,8 @@
                                                                         <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="25"/>
                                                                     </buttonConfiguration>
                                                                     <connections>
-                                                                        <segue destination="sXS-SC-RrX" kind="show" id="UX5-PZ-Mwp"/>
+                                                                        <action selector="didPressBackButton:" destination="qcO-V9-Q6T" eventType="touchUpInside" id="60E-JE-WXQ"/>
+                                                                        <segue destination="sXS-SC-RrX" kind="show" id="8MC-rq-fce"/>
                                                                     </connections>
                                                                 </button>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lLZ-hl-qND">
@@ -488,7 +502,8 @@
                                                                         <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="25"/>
                                                                     </buttonConfiguration>
                                                                     <connections>
-                                                                        <segue destination="2Kd-qo-ui2" kind="show" id="usj-8P-6VQ"/>
+                                                                        <action selector="didPressNextButton:" destination="qcO-V9-Q6T" eventType="touchUpInside" id="JLR-8a-nUr"/>
+                                                                        <segue destination="2Kd-qo-ui2" kind="show" id="cJq-g0-XjZ"/>
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
@@ -534,15 +549,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JmY-5Z-mvy"/>
+                    <connections>
+                        <outlet property="questionLabel" destination="iqE-ON-udg" id="Bqd-QL-VC4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JiB-gW-avh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3465" y="136"/>
+            <point key="canvasLocation" x="3470" y="134"/>
         </scene>
         <!--NavigationVC-->
         <scene sceneID="LCQ-U8-mQD">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="2Kd-qo-ui2" customClass="NavigationVC" customModule="Salma" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NavigationVC" modalPresentationStyle="fullScreen" id="2Kd-qo-ui2" customClass="NavigationVC" customModule="Salma" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SXZ-0Q-tsq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -552,7 +570,7 @@
                                 <color key="backgroundColor" red="0.79215686269999996" green="0.94117647059999998" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKq-yY-nbv">
-                                <rect key="frame" x="0.0" y="800" width="375" height="45"/>
+                                <rect key="frame" x="0.0" y="763" width="375" height="49"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zg4-b8-XN7" customClass="DesignableView" customModule="Salma" customModuleProvider="target">
@@ -568,7 +586,7 @@
                                                         <rect key="frame" x="3" y="3" width="131.66666666666666" height="39"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="IPW-QO-7Be">
-                                                                <rect key="frame" x="0.0" y="1.3333333333333321" width="131.66666666666666" height="18.333333333333336"/>
+                                                                <rect key="frame" x="0.0" y="1.6666666666666643" width="131.66666666666666" height="18.000000000000004"/>
                                                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfw-Rc-e3T">
@@ -661,7 +679,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hMf-PX-eux" customClass="DesignableView" customModule="Salma" customModuleProvider="target">
-                                <rect key="frame" x="157" y="376" width="60" height="60"/>
+                                <rect key="frame" x="157.66666666666666" y="693" width="60" height="60"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart.text.square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Qre-Yk-nt9">
                                         <rect key="frame" x="16" y="17.666666666666664" width="28" height="25.000000000000007"/>
@@ -840,32 +858,32 @@
         <!--Select DateVC-->
         <scene sceneID="Ixf-hk-eNv">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="gRh-ri-tYX" customClass="SelectDateVC" customModule="Salma" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SelectDateVC" modalPresentationStyle="fullScreen" id="gRh-ri-tYX" customClass="SelectDateVC" customModule="Salma" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NJX-vZ-s9a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="JRc-4c-gA9">
-                                <rect key="frame" x="0.0" y="421" width="200" height="200"/>
+                                <rect key="frame" x="0.0" y="420.33333333333326" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="pUf-hZ-tY5"/>
                                     <constraint firstAttribute="width" secondItem="JRc-4c-gA9" secondAttribute="height" multiplier="1:1" id="yhq-co-Tp1"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="a16-2G-tD8">
-                                <rect key="frame" x="155" y="142" width="300" height="199"/>
+                                <rect key="frame" x="155" y="142.66666666666666" width="300" height="198.99999999999997"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="a16-2G-tD8" secondAttribute="height" multiplier="333:221" id="34N-gq-NrC"/>
                                     <constraint firstAttribute="width" constant="300" id="Tur-xV-GD6"/>
                                 </constraints>
                             </imageView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vxZ-ZD-YsH" customClass="DesignableView" customModule="Salma" customModuleProvider="target">
-                                <rect key="frame" x="20" y="241" width="335" height="330"/>
+                                <rect key="frame" x="20" y="241.66666666666666" width="335" height="328.66666666666674"/>
                                 <subviews>
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iUf-lq-lVW">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="330"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="328.66666666666669"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="p3a-gF-3A6">
-                                            <rect key="frame" x="0.0" y="0.0" width="335" height="330"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="335" height="328"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="KoJ-o9-wYb">
@@ -896,25 +914,25 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r4c-8t-P3I" customClass="DesignableView" customModule="Salma" customModuleProvider="target">
-                                <rect key="frame" x="37.666666666666657" y="625" width="300" height="103"/>
+                                <rect key="frame" x="37.666666666666657" y="626.66666666666663" width="300" height="101.33333333333337"/>
                                 <subviews>
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="faJ-7L-zRb">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="103"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="101.33333333333333"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="4Tj-PB-LMg">
-                                            <rect key="frame" x="0.0" y="0.0" width="300" height="103"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="101"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="jW7-4R-rts">
-                                                    <rect key="frame" x="10" y="10" width="280" height="82.666666666666671"/>
+                                                    <rect key="frame" x="10" y="10" width="280" height="81.333333333333329"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What’s your date of birth?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAN-7A-Q2j">
-                                                            <rect key="frame" x="0.0" y="0.0" width="280" height="27.666666666666668"/>
-                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What’s your date of birth ?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="fAN-7A-Q2j">
+                                                            <rect key="frame" x="0.0" y="0.0" width="280" height="26.333333333333332"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xGp-bG-wPE">
-                                                            <rect key="frame" x="0.0" y="42.666666666666629" width="280" height="40"/>
+                                                            <rect key="frame" x="0.0" y="41.333333333333371" width="280" height="40"/>
                                                             <subviews>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXR-LZ-f57">
                                                                     <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
@@ -928,7 +946,7 @@
                                                                         <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="25"/>
                                                                     </buttonConfiguration>
                                                                     <connections>
-                                                                        <segue destination="WVu-k8-8ZU" kind="show" id="aKd-lz-hOn"/>
+                                                                        <action selector="didPressBackButton:" destination="gRh-ri-tYX" eventType="touchUpInside" id="uoQ-bz-qhI"/>
                                                                     </connections>
                                                                 </button>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MrE-aj-vGm">
@@ -942,7 +960,8 @@
                                                                         <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="25"/>
                                                                     </buttonConfiguration>
                                                                     <connections>
-                                                                        <segue destination="sXS-SC-RrX" kind="show" id="l8Z-kp-Riu"/>
+                                                                        <action selector="didPressNextButton:" destination="gRh-ri-tYX" eventType="touchUpInside" id="srp-Ec-vEU"/>
+                                                                        <segue destination="sXS-SC-RrX" kind="show" id="ygX-iF-yPU"/>
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
@@ -993,6 +1012,7 @@
                     <navigationItem key="navigationItem" id="BhV-Xw-Zxa"/>
                     <connections>
                         <outlet property="datePicker" destination="KoJ-o9-wYb" id="neH-SV-vb3"/>
+                        <outlet property="questionLabel" destination="fAN-7A-Q2j" id="26v-gf-c77"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lSZ-O3-DCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1165,11 +1185,137 @@
             </objects>
             <point key="canvasLocation" x="5136.8000000000002" y="1698.768472906404"/>
         </scene>
+        <!--Family MemberVC-->
+        <scene sceneID="g54-29-bDe">
+            <objects>
+                <viewController storyboardIdentifier="FamilyMemberVC" modalPresentationStyle="fullScreen" id="P0I-cV-rGD" customClass="FamilyMemberVC" customModule="Salma" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LVv-cT-SyW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boy2" translatesAutoresizingMaskIntoConstraints="NO" id="x5G-o4-K4B">
+                                <rect key="frame" x="12.666666666666657" y="178" width="249.99999999999997" height="500"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="Wxf-z1-nx4"/>
+                                    <constraint firstAttribute="width" secondItem="x5G-o4-K4B" secondAttribute="height" multiplier="1:2" id="ymT-st-NnE"/>
+                                </constraints>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gpz-io-Ai7" customClass="DesignableView" customModule="Salma" customModuleProvider="target">
+                                <rect key="frame" x="37.666666666666657" y="326" width="300" height="402"/>
+                                <subviews>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f0R-v7-hVU">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="402"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="KMi-r1-DZO">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="402"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="v0T-zH-Hl1">
+                                                    <rect key="frame" x="10" y="10" width="280" height="382.33333333333331"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This app is primarily for Women’s Cancer Screening Decision Aid" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98v-UV-SOa">
+                                                            <rect key="frame" x="0.0" y="0.0" width="280" height="40.666666666666664"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please tell us for whom you would like to use this application ?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fR5-GA-n5p">
+                                                            <rect key="frame" x="0.0" y="55.666666666666686" width="280" height="40.666666666666657"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q9x-vP-xg6">
+                                                            <rect key="frame" x="0.0" y="111.33333333333331" width="280" height="216"/>
+                                                            <connections>
+                                                                <outlet property="dataSource" destination="P0I-cV-rGD" id="pse-j3-wXc"/>
+                                                                <outlet property="delegate" destination="P0I-cV-rGD" id="4e3-3Q-P7a"/>
+                                                            </connections>
+                                                        </pickerView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Egd-iE-mdk">
+                                                            <rect key="frame" x="0.0" y="342.33333333333337" width="280" height="40"/>
+                                                            <subviews>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ng-hC-FGq">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="40" id="9k9-sp-fuX"/>
+                                                                        <constraint firstAttribute="width" constant="100" id="z1h-wV-aE2"/>
+                                                                    </constraints>
+                                                                    <color key="tintColor" systemColor="systemIndigoColor"/>
+                                                                    <state key="normal" title="Button"/>
+                                                                    <buttonConfiguration key="configuration" style="tinted" title="Back">
+                                                                        <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                                                    </buttonConfiguration>
+                                                                    <connections>
+                                                                        <action selector="didPressBackButton:" destination="P0I-cV-rGD" eventType="touchUpInside" id="FkX-qk-Ssk"/>
+                                                                        <segue destination="WVu-k8-8ZU" kind="show" id="NAt-ex-mjm"/>
+                                                                    </connections>
+                                                                </button>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tl0-Gx-kSM">
+                                                                    <rect key="frame" x="108" y="0.0" width="172" height="40"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="40" id="vUl-if-Jng"/>
+                                                                    </constraints>
+                                                                    <color key="tintColor" systemColor="systemIndigoColor"/>
+                                                                    <state key="normal" title="Button"/>
+                                                                    <buttonConfiguration key="configuration" style="tinted" title="Next">
+                                                                        <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                                                    </buttonConfiguration>
+                                                                    <connections>
+                                                                        <action selector="didPressNextButton:" destination="P0I-cV-rGD" eventType="touchUpInside" id="dGG-dY-rhg"/>
+                                                                        <segue destination="gRh-ri-tYX" kind="show" id="lVo-Lu-cyc"/>
+                                                                    </connections>
+                                                                </button>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="v0T-zH-Hl1" firstAttribute="centerX" secondItem="KMi-r1-DZO" secondAttribute="centerX" id="89e-jv-lbJ"/>
+                                                <constraint firstItem="v0T-zH-Hl1" firstAttribute="centerY" secondItem="KMi-r1-DZO" secondAttribute="centerY" id="oxC-kh-8ow"/>
+                                                <constraint firstItem="v0T-zH-Hl1" firstAttribute="top" secondItem="KMi-r1-DZO" secondAttribute="top" constant="10" id="s0N-Ys-hbe"/>
+                                                <constraint firstItem="v0T-zH-Hl1" firstAttribute="leading" secondItem="KMi-r1-DZO" secondAttribute="leading" constant="10" id="sGZ-gj-lXO"/>
+                                            </constraints>
+                                        </view>
+                                        <blurEffect style="regular"/>
+                                    </visualEffectView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="f0R-v7-hVU" secondAttribute="trailing" id="7M9-vp-Ail"/>
+                                    <constraint firstItem="f0R-v7-hVU" firstAttribute="leading" secondItem="Gpz-io-Ai7" secondAttribute="leading" id="WiI-YY-gbF"/>
+                                    <constraint firstItem="f0R-v7-hVU" firstAttribute="top" secondItem="Gpz-io-Ai7" secondAttribute="top" id="Z1A-nJ-gLd"/>
+                                    <constraint firstAttribute="width" constant="300" id="iGr-xj-MoB"/>
+                                    <constraint firstAttribute="bottom" secondItem="f0R-v7-hVU" secondAttribute="bottom" id="zUK-AW-oqh"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MP4-Ge-2Hq"/>
+                        <color key="backgroundColor" red="0.79215686269999996" green="0.94117647059999998" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="MP4-Ge-2Hq" firstAttribute="bottom" secondItem="Gpz-io-Ai7" secondAttribute="bottom" constant="50" id="Hdz-1C-r4w"/>
+                            <constraint firstItem="Gpz-io-Ai7" firstAttribute="centerX" secondItem="LVv-cT-SyW" secondAttribute="centerX" id="Q7d-ed-5nj"/>
+                            <constraint firstItem="Gpz-io-Ai7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="MP4-Ge-2Hq" secondAttribute="leading" constant="20" id="R2L-v3-gJr"/>
+                            <constraint firstItem="x5G-o4-K4B" firstAttribute="centerX" secondItem="LVv-cT-SyW" secondAttribute="centerX" constant="-50" id="Rp4-iU-0oW"/>
+                            <constraint firstItem="x5G-o4-K4B" firstAttribute="bottom" secondItem="Gpz-io-Ai7" secondAttribute="bottom" constant="-50" id="pW2-84-MLK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hVb-b0-xD8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AaA-JQ-hQ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1080.8" y="846.79802955665025"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Uoy-cv-e0e"/>
-        <segue reference="UX5-PZ-Mwp"/>
-        <segue reference="aKd-lz-hOn"/>
+        <segue reference="jwY-LS-ucp"/>
+        <segue reference="8MC-rq-fce"/>
+        <segue reference="NAt-ex-mjm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="avatar-2" width="912" height="912"/>
@@ -1178,6 +1324,7 @@
         <image name="book.fill" catalog="system" width="128" height="95"/>
         <image name="books" width="850" height="912"/>
         <image name="boy" width="530" height="911"/>
+        <image name="boy2" width="479" height="912"/>
         <image name="cigarette-pack" width="100" height="100"/>
         <image name="girl" width="426" height="912"/>
         <image name="girlAndbBoy" width="590" height="912"/>

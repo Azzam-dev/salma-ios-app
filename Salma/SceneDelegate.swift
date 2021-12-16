@@ -16,7 +16,45 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        
+        checkUserIntroProgress()
+        
+        
         guard let _ = (scene as? UIWindowScene) else { return }
+    }
+    
+    func checkUserIntroProgress() {
+        let introProgress = UserDefaults.standard.userIntroductionProgress()
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let introVC: UIViewController
+        switch introProgress {
+        case 0:
+            introVC = storyboard.instantiateViewController(withIdentifier: "IntroductionVC")
+        case 1:
+            let gender = UserDefaults.standard.getGender()
+            switch gender {
+            case .none, .female:
+                introVC = storyboard.instantiateViewController(withIdentifier: "SelectGenderVC")
+            case .male:
+                introVC = storyboard.instantiateViewController(withIdentifier: "FamilyMemberVC")
+                
+            }
+        case 2:
+            introVC = storyboard.instantiateViewController(withIdentifier: "SelectDateVC")
+        case 3:
+            introVC = storyboard.instantiateViewController(withIdentifier: "PregnancyStatusVC")
+        case 4:
+            introVC = storyboard.instantiateViewController(withIdentifier: "SmokingStatusVC")
+        case 5:
+            introVC = storyboard.instantiateViewController(withIdentifier: "NavigationVC")
+        default:
+            print("error: userIntroductionProgress failed")
+            introVC = storyboard.instantiateViewController(withIdentifier: "IntroductionVC")
+        }
+        
+        window?.makeKeyAndVisible()
+        window?.rootViewController?.present(introVC, animated: false, completion: nil)
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

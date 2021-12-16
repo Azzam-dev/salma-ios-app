@@ -14,15 +14,21 @@
 		DB48FE812766257700958288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB48FE7F2766257700958288 /* Main.storyboard */; };
 		DB48FE832766257A00958288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB48FE822766257A00958288 /* Assets.xcassets */; };
 		DB48FE862766257A00958288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB48FE842766257A00958288 /* LaunchScreen.storyboard */; };
+		DB6488C1276A7E8A0031259C /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6488C0276A7E890031259C /* UserDefaultsService.swift */; };
+		DB6488C4276A881D0031259C /* PregnancyStatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6488C3276A881C0031259C /* PregnancyStatusVC.swift */; };
+		DB6488C6276A88420031259C /* SmokingStatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6488C5276A88420031259C /* SmokingStatusVC.swift */; };
+		DB6488C8276A888F0031259C /* FamilyMemberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6488C7276A888F0031259C /* FamilyMemberVC.swift */; };
 		DB9C92682767533300F25C39 /* SelectGenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9C92672767533300F25C39 /* SelectGenderVC.swift */; };
 		DB9C926A276754D400F25C39 /* SelectDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9C9269276754D400F25C39 /* SelectDateVC.swift */; };
 		DB9C926C2767616700F25C39 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9C926B2767616700F25C39 /* NavigationVC.swift */; };
 		DB9C926E276767D800F25C39 /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9C926D276767D800F25C39 /* NewsVC.swift */; };
 		DB9C9270276767EE00F25C39 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9C926F276767EE00F25C39 /* HomeVC.swift */; };
 		DB9C9272276767FC00F25C39 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9C9271276767FC00F25C39 /* ProfileVC.swift */; };
+		DBB88C94276B4288003C96B1 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB88C93276B4288003C96B1 /* Gender.swift */; };
 		DBD275FD27665C48003BD6FD /* MainExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD275FA27665C48003BD6FD /* MainExtensions.swift */; };
 		DBD275FE27665C48003BD6FD /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD275FB27665C48003BD6FD /* GradientView.swift */; };
 		DBD275FF27665C48003BD6FD /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD275FC27665C48003BD6FD /* RevealingSplashView.swift */; };
+		DBF9D19D276B3E7A00542CD4 /* FamilyMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF9D19C276B3E7A00542CD4 /* FamilyMembers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,15 +41,21 @@
 		DB48FE822766257A00958288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB48FE852766257A00958288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB48FE872766257A00958288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6488C0276A7E890031259C /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
+		DB6488C3276A881C0031259C /* PregnancyStatusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnancyStatusVC.swift; sourceTree = "<group>"; };
+		DB6488C5276A88420031259C /* SmokingStatusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokingStatusVC.swift; sourceTree = "<group>"; };
+		DB6488C7276A888F0031259C /* FamilyMemberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMemberVC.swift; sourceTree = "<group>"; };
 		DB9C92672767533300F25C39 /* SelectGenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGenderVC.swift; sourceTree = "<group>"; };
 		DB9C9269276754D400F25C39 /* SelectDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateVC.swift; sourceTree = "<group>"; };
 		DB9C926B2767616700F25C39 /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
 		DB9C926D276767D800F25C39 /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
 		DB9C926F276767EE00F25C39 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		DB9C9271276767FC00F25C39 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		DBB88C93276B4288003C96B1 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		DBD275FA27665C48003BD6FD /* MainExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainExtensions.swift; sourceTree = "<group>"; };
 		DBD275FB27665C48003BD6FD /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		DBD275FC27665C48003BD6FD /* RevealingSplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealingSplashView.swift; sourceTree = "<group>"; };
+		DBF9D19C276B3E7A00542CD4 /* FamilyMembers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMembers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,19 @@
 			path = Salma;
 			sourceTree = "<group>";
 		};
+		DB6488C2276A87DA0031259C /* introVCs */ = {
+			isa = PBXGroup;
+			children = (
+				DB48FE7D2766257700958288 /* IntroductionVC.swift */,
+				DB9C92672767533300F25C39 /* SelectGenderVC.swift */,
+				DB6488C7276A888F0031259C /* FamilyMemberVC.swift */,
+				DB9C9269276754D400F25C39 /* SelectDateVC.swift */,
+				DB6488C3276A881C0031259C /* PregnancyStatusVC.swift */,
+				DB6488C5276A88420031259C /* SmokingStatusVC.swift */,
+			);
+			path = introVCs;
+			sourceTree = "<group>";
+		};
 		DB9C92632767500B00F25C39 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,9 +129,7 @@
 				DB9C926D276767D800F25C39 /* NewsVC.swift */,
 				DB9C926F276767EE00F25C39 /* HomeVC.swift */,
 				DB9C9271276767FC00F25C39 /* ProfileVC.swift */,
-				DB48FE7D2766257700958288 /* IntroductionVC.swift */,
-				DB9C92672767533300F25C39 /* SelectGenderVC.swift */,
-				DB9C9269276754D400F25C39 /* SelectDateVC.swift */,
+				DB6488C2276A87DA0031259C /* introVCs */,
 				DB0DB76B276906CE00B61365 /* Cells */,
 			);
 			path = Controller;
@@ -115,6 +138,8 @@
 		DB9C92642767501700F25C39 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DBF9D19C276B3E7A00542CD4 /* FamilyMembers.swift */,
+				DBB88C93276B4288003C96B1 /* Gender.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -122,6 +147,7 @@
 		DB9C92652767502500F25C39 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				DB6488C0276A7E890031259C /* UserDefaultsService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -216,18 +242,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6488C4276A881D0031259C /* PregnancyStatusVC.swift in Sources */,
 				DB9C9272276767FC00F25C39 /* ProfileVC.swift in Sources */,
 				DB0DB76D276906F400B61365 /* RecommendationCell.swift in Sources */,
 				DBD275FD27665C48003BD6FD /* MainExtensions.swift in Sources */,
 				DBD275FF27665C48003BD6FD /* RevealingSplashView.swift in Sources */,
+				DB6488C8276A888F0031259C /* FamilyMemberVC.swift in Sources */,
+				DB6488C6276A88420031259C /* SmokingStatusVC.swift in Sources */,
 				DB48FE7E2766257700958288 /* IntroductionVC.swift in Sources */,
 				DB9C926C2767616700F25C39 /* NavigationVC.swift in Sources */,
 				DB9C92682767533300F25C39 /* SelectGenderVC.swift in Sources */,
 				DB9C926A276754D400F25C39 /* SelectDateVC.swift in Sources */,
+				DB6488C1276A7E8A0031259C /* UserDefaultsService.swift in Sources */,
 				DBD275FE27665C48003BD6FD /* GradientView.swift in Sources */,
+				DBF9D19D276B3E7A00542CD4 /* FamilyMembers.swift in Sources */,
 				DB48FE7A2766257700958288 /* AppDelegate.swift in Sources */,
 				DB48FE7C2766257700958288 /* SceneDelegate.swift in Sources */,
 				DB9C9270276767EE00F25C39 /* HomeVC.swift in Sources */,
+				DBB88C94276B4288003C96B1 /* Gender.swift in Sources */,
 				DB9C926E276767D800F25C39 /* NewsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

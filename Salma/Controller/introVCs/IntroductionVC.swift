@@ -14,6 +14,9 @@ class IntroductionVC: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func didPressStartButton(_ sender: UIButton) {
+        let _ = UserDefaults.standard.increaseIntroductionProgress()
+    }
+    
 }
 
