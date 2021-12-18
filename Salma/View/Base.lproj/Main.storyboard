@@ -911,26 +911,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="JRc-4c-gA9">
-                                <rect key="frame" x="0.0" y="420.66666666666674" width="200" height="200"/>
+                                <rect key="frame" x="0.0" y="420.33333333333326" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="pUf-hZ-tY5"/>
                                     <constraint firstAttribute="width" secondItem="JRc-4c-gA9" secondAttribute="height" multiplier="1:1" id="yhq-co-Tp1"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="a16-2G-tD8">
-                                <rect key="frame" x="155" y="142.33333333333334" width="300" height="199.00000000000003"/>
+                                <rect key="frame" x="155" y="142.66666666666666" width="300" height="198.99999999999997"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="a16-2G-tD8" secondAttribute="height" multiplier="333:221" id="34N-gq-NrC"/>
                                     <constraint firstAttribute="width" constant="300" id="Tur-xV-GD6"/>
                                 </constraints>
                             </imageView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vxZ-ZD-YsH" customClass="DesignableView" customModule="Salma" customModuleProvider="target">
-                                <rect key="frame" x="20" y="241.33333333333334" width="335" height="329.33333333333326"/>
+                                <rect key="frame" x="20" y="241.66666666666666" width="335" height="328.66666666666674"/>
                                 <subviews>
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iUf-lq-lVW">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="329.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="328.66666666666669"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="p3a-gF-3A6">
-                                            <rect key="frame" x="0.0" y="0.0" width="335" height="329.33333333333331"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="335" height="328"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="KoJ-o9-wYb">
@@ -1191,23 +1191,23 @@
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="CyN-MT-zut">
-                                <rect key="frame" x="119" y="429" width="370" height="370"/>
+                                <rect key="frame" x="119" y="387" width="370" height="370"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="370" id="YNC-rT-gE5"/>
                                     <constraint firstAttribute="width" secondItem="CyN-MT-zut" secondAttribute="height" multiplier="1:1" id="aTt-vV-3gb"/>
                                 </constraints>
                             </imageView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hyp-SP-Ut4" customClass="DesignableView" customModule="Salma" customModuleProvider="target">
-                                <rect key="frame" x="20" y="184" width="335" height="494"/>
+                                <rect key="frame" x="20" y="184" width="335" height="452"/>
                                 <subviews>
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a3q-Cr-b8l">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="494"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="452"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="R3a-v3-TEz">
-                                            <rect key="frame" x="0.0" y="0.0" width="335" height="494"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="335" height="452"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DMW-Np-i8p">
-                                                    <rect key="frame" x="20" y="10" width="295" height="474"/>
+                                                    <rect key="frame" x="20" y="10" width="295" height="432"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EVO-P1-LnA">
                                                             <rect key="frame" x="0.0" y="0.0" width="295" height="34"/>
@@ -1225,29 +1225,43 @@
                                                             </subviews>
                                                         </stackView>
                                                         <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="LcP-Dx-Jm9">
-                                                            <rect key="frame" x="0.0" y="42" width="295" height="312"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="295" height="312"/>
                                                             <color key="tintColor" systemColor="systemPurpleColor"/>
+                                                            <connections>
+                                                                <action selector="didChangeDate:" destination="4fg-nz-d28" eventType="valueChanged" id="nWU-Tq-3H3"/>
+                                                            </connections>
                                                         </datePicker>
                                                         <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="88 years old" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="esB-zL-Fwm">
-                                                            <rect key="frame" x="0.0" y="362" width="295" height="34"/>
+                                                            <rect key="frame" x="0.0" y="320" width="295" height="34"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits"/>
                                                         </textField>
                                                         <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Oye-IV-oOY">
-                                                            <rect key="frame" x="0.0" y="404" width="295" height="32"/>
+                                                            <rect key="frame" x="0.0" y="362" width="295" height="32"/>
                                                             <segments>
                                                                 <segment title="Pregnant"/>
                                                                 <segment title="Not Pregnant"/>
                                                             </segments>
+                                                            <connections>
+                                                                <action selector="pregnantSegmentControl:" destination="4fg-nz-d28" eventType="valueChanged" id="R2n-ET-AUp"/>
+                                                            </connections>
                                                         </segmentedControl>
                                                         <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="qZX-1u-7s8">
-                                                            <rect key="frame" x="0.0" y="443" width="295" height="32"/>
+                                                            <rect key="frame" x="0.0" y="401" width="295" height="32"/>
                                                             <segments>
                                                                 <segment title="Smoker"/>
                                                                 <segment title="Not a Smoker"/>
                                                             </segments>
+                                                            <connections>
+                                                                <action selector="smokingSegmentControl:" destination="4fg-nz-d28" eventType="valueChanged" id="Bcs-IQ-in7"/>
+                                                            </connections>
                                                         </segmentedControl>
                                                     </subviews>
+                                                    <variation key="default">
+                                                        <mask key="subviews">
+                                                            <exclude reference="EVO-P1-LnA"/>
+                                                        </mask>
+                                                    </variation>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
@@ -1280,6 +1294,21 @@
                                     <constraint firstAttribute="width" secondItem="nYR-dD-tod" secondAttribute="height" multiplier="1:1" id="bRJ-Oy-WMe"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9B-39-B4D">
+                                <rect key="frame" x="315" y="64" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="dbb-Wx-9X3"/>
+                                    <constraint firstAttribute="width" secondItem="H9B-39-B4D" secondAttribute="height" multiplier="1:1" id="oXC-bt-wfm"/>
+                                </constraints>
+                                <color key="tintColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" image="power" catalog="system" title="​">
+                                    <color key="baseBackgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="didPressLogout:" destination="4fg-nz-d28" eventType="touchUpInside" id="PgO-Gx-buk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HKh-vW-Kbn"/>
                         <color key="backgroundColor" red="0.79215686269999996" green="0.94117647059999998" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -1288,17 +1317,23 @@
                             <constraint firstItem="Hyp-SP-Ut4" firstAttribute="leading" secondItem="HKh-vW-Kbn" secondAttribute="leading" constant="20" id="CUV-G9-5a0"/>
                             <constraint firstItem="nYR-dD-tod" firstAttribute="top" secondItem="HKh-vW-Kbn" secondAttribute="top" constant="20" id="MC1-5N-83m"/>
                             <constraint firstItem="Hyp-SP-Ut4" firstAttribute="top" secondItem="nYR-dD-tod" secondAttribute="bottom" constant="20" id="P82-Ms-Cjj"/>
+                            <constraint firstItem="H9B-39-B4D" firstAttribute="top" secondItem="HKh-vW-Kbn" secondAttribute="top" constant="20" id="Q2K-VP-A0s"/>
                             <constraint firstItem="Hyp-SP-Ut4" firstAttribute="top" secondItem="374-ha-QnB" secondAttribute="bottom" constant="-109" id="Zr8-Mj-ibX"/>
                             <constraint firstItem="CyN-MT-zut" firstAttribute="leading" secondItem="Hyp-SP-Ut4" secondAttribute="trailing" constant="-236" id="cKn-bm-0F4"/>
                             <constraint firstItem="Hyp-SP-Ut4" firstAttribute="leading" secondItem="374-ha-QnB" secondAttribute="trailing" constant="-110" id="ciC-XN-FAP"/>
+                            <constraint firstAttribute="trailing" secondItem="H9B-39-B4D" secondAttribute="trailing" constant="20" id="dra-bG-x21"/>
                             <constraint firstItem="nYR-dD-tod" firstAttribute="centerX" secondItem="ovm-sh-Swx" secondAttribute="centerX" id="eUx-Dw-IFX"/>
                             <constraint firstItem="Hyp-SP-Ut4" firstAttribute="centerX" secondItem="ovm-sh-Swx" secondAttribute="centerX" id="lYX-k1-KcZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Xsq-Fv-o2T"/>
                     <connections>
+                        <outlet property="ageTextField" destination="esB-zL-Fwm" id="gFb-YJ-Xiu"/>
+                        <outlet property="datePicker" destination="LcP-Dx-Jm9" id="Icv-d6-lDM"/>
                         <outlet property="firstNameTextField" destination="5xG-cF-r85" id="Lu6-kv-qzR"/>
                         <outlet property="lastNameTextField" destination="bS0-gj-Dp7" id="Ic7-g6-IBw"/>
+                        <outlet property="pregnantSegmentControl" destination="Oye-IV-oOY" id="bm2-X6-Vp2"/>
+                        <outlet property="smokingSegmentControl" destination="qZX-1u-7s8" id="nCv-Lq-l8W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="voF-0U-XCU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1321,12 +1356,12 @@
                                 </constraints>
                             </imageView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gpz-io-Ai7" customClass="DesignableView" customModule="Salma" customModuleProvider="target">
-                                <rect key="frame" x="37.666666666666657" y="325.33333333333326" width="300" height="402.66666666666674"/>
+                                <rect key="frame" x="37.666666666666657" y="326" width="300" height="402"/>
                                 <subviews>
                                     <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f0R-v7-hVU">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="402.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="402"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="KMi-r1-DZO">
-                                            <rect key="frame" x="0.0" y="0.0" width="300" height="402.66666666666669"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="402"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="v0T-zH-Hl1">
@@ -1345,14 +1380,14 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q9x-vP-xg6">
-                                                            <rect key="frame" x="0.0" y="111.33333333333337" width="280" height="216"/>
+                                                            <rect key="frame" x="0.0" y="111.33333333333331" width="280" height="216"/>
                                                             <connections>
                                                                 <outlet property="dataSource" destination="P0I-cV-rGD" id="pse-j3-wXc"/>
                                                                 <outlet property="delegate" destination="P0I-cV-rGD" id="4e3-3Q-P7a"/>
                                                             </connections>
                                                         </pickerView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Egd-iE-mdk">
-                                                            <rect key="frame" x="0.0" y="342.33333333333331" width="280" height="40"/>
+                                                            <rect key="frame" x="0.0" y="342.33333333333337" width="280" height="40"/>
                                                             <subviews>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ng-hC-FGq">
                                                                     <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
@@ -1434,7 +1469,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="jwY-LS-ucp"/>
-        <segue reference="ygX-iF-yPU"/>
+        <segue reference="8MC-rq-fce"/>
         <segue reference="NsC-Ld-b1I"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1454,6 +1489,7 @@
         <image name="loading" width="910" height="912"/>
         <image name="man-asking" width="517" height="912"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="power" catalog="system" width="128" height="124"/>
         <image name="reading" width="1075" height="912"/>
         <image name="speech-balloon" width="1368" height="912"/>
         <systemColor name="labelColor">

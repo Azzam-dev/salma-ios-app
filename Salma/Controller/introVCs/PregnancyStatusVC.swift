@@ -33,11 +33,7 @@ class PregnancyStatusVC: UIViewController {
     }
     
     @IBAction func pregnantSegmentControl(_ sender: UISegmentedControl) {
-        if sender.selectedSegmentIndex == 0 {
-            isPregnant = true
-        } else {
-            isPregnant = false
-        }
+        isPregnant = (sender.selectedSegmentIndex == 0)
     }
     
     @IBAction func didPressNextButton(_ sender: UIButton) {

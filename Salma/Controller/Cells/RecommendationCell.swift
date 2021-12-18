@@ -14,8 +14,16 @@ class RecommendationCell: UITableViewCell {
     @IBOutlet weak var descriptionTextView: UITextView!
     
     func configuration(_ recommendation: Recommendation) {
-        backgroundImage.image = recommendation.image
         titleLabel.text = recommendation.title
         descriptionTextView.text = recommendation.description
+        
+        switch recommendation.risk {
+        case .none, .low:
+            backgroundImage.image = #imageLiteral(resourceName: "speech-balloon")
+        case .medium:
+            backgroundImage.image = #imageLiteral(resourceName: "apple")
+        case .high:
+            backgroundImage.image = #imageLiteral(resourceName: "heart-1") 
+        }
     }
 }

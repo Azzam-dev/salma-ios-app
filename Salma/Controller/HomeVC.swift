@@ -9,7 +9,7 @@ import UIKit
 
 class HomeVC: UIViewController {
 
-    let recommendations = [Recommendation(image: #imageLiteral(resourceName: "heart-1"), title: "Cervical cancer screening", description: "The USPSTF recommends screening every 3 years with cervical cytology alone, every 5 years with high-risk human papillomavirus (hrHPV) testing alone, or every 5 years with hrHPV testing in combination with cytology (cotesting)."), Recommendation(image: #imageLiteral(resourceName: "apple"), title: "Medicine framework", description: "The Technology Assessment in Medicine framework was the framework selected for this project. I chose to use the American Cancer Society guidelines for this project since these resources are frequently used in developing cancer screening guidelines and practice recommendations, and they are available in Arabic and English. Adobe® XD was used as the prototyping tool, I also designed a future evaluation (survey of users) to assess the tools usability and perceived value."), Recommendation(image: #imageLiteral(resourceName: "speech-balloon"), title: "Breast cancer screening", description: "Talk to your doctor about your risk for breast cancer. Major risk factors for breast cancer include increasing age, family history of breast or ovarian cancer (especially among first-degree relatives and onset before age 50 years), history of atypical hyperplasia or other honmalignant high-risk breast lesions, previous breast biopsy, and extremely dense breast tissue.")]
+    var recommendations = [Recommendation]()
     
     var selectedCellIndexPath: IndexPath?
     let selectedCellHeight: CGFloat = 200.0
@@ -18,12 +18,17 @@ class HomeVC: UIViewController {
     
     @IBOutlet weak var recommendationsTableView: UITableView!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        getRecommendations()
     }
     
+    func getRecommendations() {
+        guard let dateOfBirth = UserDefaults.standard.getDateOfBirth() else { return }
+        recommendations = WCSDAService.instance.getCancerScreeningDecisionAid(dateOfBirth: dateOfBirth)
+        recommendationsTableView.reloadData()
+    }
 
 }
 

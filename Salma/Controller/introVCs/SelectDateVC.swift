@@ -17,7 +17,7 @@ class SelectDateVC: UIViewController {
         super.viewDidLoad()
         
         setupQuestionLabel()
-        setupMaxDate()
+        datePicker.setupMaxAndMinDate()
     }
     
     func setupQuestionLabel() {
@@ -28,11 +28,6 @@ class SelectDateVC: UIViewController {
             questionLabel.text = "What’s your \(member.rawValue)'s\n date of birth ?"
         }
         
-    }
-
-    func setupMaxDate() {
-        //this sets the maximum date the user can pick for his/her birthday
-        datePicker.maximumDate = Calendar.current.date(byAdding: .year, value: -18, to: Date())
     }
     
     @IBAction func didPressNextButton(_ sender: UIButton) {

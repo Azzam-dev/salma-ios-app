@@ -57,7 +57,6 @@ class NavigationVC: UIViewController {
         //before Center curve
         path.addArc(withCenter: CGPoint(x: (width / 2 ) - 52.5, y: 17.5), radius: 17.5,
                     startAngle: 3 * .pi/2 , endAngle: 11 * .pi / 6 , clockwise: true)
-//
         
         //Center curve
         path.addArc(withCenter: CGPoint(x: (width / 2 ) , y: 5), radius: 35,

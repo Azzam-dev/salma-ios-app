@@ -30,11 +30,7 @@ class SmokingStatusVC: UIViewController {
     }
     
     @IBAction func smokingSegmentControl(_ sender: UISegmentedControl) {
-        if sender.selectedSegmentIndex == 0 {
-            smokingStatus = true
-        } else {
-            smokingStatus = false
-        }
+        smokingStatus = (sender.selectedSegmentIndex == 0)
     }
     
     
