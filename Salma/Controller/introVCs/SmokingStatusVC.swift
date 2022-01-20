@@ -22,9 +22,9 @@ class SmokingStatusVC: UIViewController {
     func setupQuestionLabel() {
         guard let member = UserDefaults.standard.getMember() else { return }
         if member == .mySelf {
-            questionLabel.text = "Do you smoke ?"
+            questionLabel.text = "Do you smoke ?".localised()
         } else {
-            questionLabel.text = "Does your \(member.rawValue)\n smoke ?"
+            questionLabel.text = "Does she smoke ?".localised()
         }
         
     }

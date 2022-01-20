@@ -13,6 +13,7 @@ import Foundation
 class WCSDAService {
     static let instance = WCSDAService()
     
+    let ageRangeZero = 1...20
     let ageRangeOne = 21...29
     let ageRangeTwo = 30...39
     let ageRangeThree = 40...49
@@ -26,6 +27,8 @@ class WCSDAService {
         
         
         switch age {
+        case ageRangeZero:
+            print("No Recommendation.")
         case ageRangeOne:
             recommendations = [
                 Recommendation(type: .colorectal, risk: .low),

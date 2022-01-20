@@ -21,9 +21,9 @@ class PregnancyStatusVC: UIViewController {
     func setupQuestionLabel() {
         guard let member = UserDefaults.standard.getMember() else { return }
         if member == .mySelf {
-            questionLabel.text = "Are you pregnant ?"
+            questionLabel.text = "Are you pregnant ?".localised()
         } else {
-            questionLabel.text = "Is your \(member.rawValue)\n pregnant ?"
+            questionLabel.text = "Is she pregnant ?".localised()
         }
         
     }

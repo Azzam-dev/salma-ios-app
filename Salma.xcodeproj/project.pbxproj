@@ -14,6 +14,14 @@
 		DB48FE812766257700958288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB48FE7F2766257700958288 /* Main.storyboard */; };
 		DB48FE832766257A00958288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB48FE822766257A00958288 /* Assets.xcassets */; };
 		DB48FE862766257A00958288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB48FE842766257A00958288 /* LaunchScreen.storyboard */; };
+		DB5148BA2798363E008A672E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB5148B92798363E008A672E /* GoogleService-Info.plist */; };
+		DB5148BD279836E3008A672E /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DB5148BC279836E3008A672E /* IQKeyboardManagerSwift */; };
+		DB5148C02798374F008A672E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DB5148BF2798374F008A672E /* FirebaseAnalytics */; };
+		DB5148C22798374F008A672E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DB5148C12798374F008A672E /* FirebaseAuth */; };
+		DB5148C42798374F008A672E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = DB5148C32798374F008A672E /* FirebaseDatabase */; };
+		DB5148C62798374F008A672E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DB5148C52798374F008A672E /* FirebaseFirestore */; };
+		DB5148C82798374F008A672E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DB5148C72798374F008A672E /* FirebaseStorage */; };
+		DB5148CD27999096008A672E /* Localisation.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB5148CF27999096008A672E /* Localisation.strings */; };
 		DB6488C1276A7E8A0031259C /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6488C0276A7E890031259C /* UserDefaultsService.swift */; };
 		DB6488C4276A881D0031259C /* PregnancyStatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6488C3276A881C0031259C /* PregnancyStatusVC.swift */; };
 		DB6488C6276A88420031259C /* SmokingStatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6488C5276A88420031259C /* SmokingStatusVC.swift */; };
@@ -44,6 +52,11 @@
 		DB48FE822766257A00958288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB48FE852766257A00958288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB48FE872766257A00958288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5148B92798363E008A672E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB5148C927998638008A672E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		DB5148CA27998639008A672E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DB5148CE27999096008A672E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localisation.strings; sourceTree = "<group>"; };
+		DB5148D02799909B008A672E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localisation.strings; sourceTree = "<group>"; };
 		DB6488C0276A7E890031259C /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
 		DB6488C3276A881C0031259C /* PregnancyStatusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PregnancyStatusVC.swift; sourceTree = "<group>"; };
 		DB6488C5276A88420031259C /* SmokingStatusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokingStatusVC.swift; sourceTree = "<group>"; };
@@ -69,6 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5148C02798374F008A672E /* FirebaseAnalytics in Frameworks */,
+				DB5148C22798374F008A672E /* FirebaseAuth in Frameworks */,
+				DB5148C42798374F008A672E /* FirebaseDatabase in Frameworks */,
+				DB5148C62798374F008A672E /* FirebaseFirestore in Frameworks */,
+				DB5148BD279836E3008A672E /* IQKeyboardManagerSwift in Frameworks */,
+				DB5148C82798374F008A672E /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +124,7 @@
 				DB48FE792766257700958288 /* AppDelegate.swift */,
 				DB48FE7B2766257700958288 /* SceneDelegate.swift */,
 				DBF4F8CB276DF8D7006E37ED /* GlobalVariables.swift */,
+				DB5148CF27999096008A672E /* Localisation.strings */,
 				DB9C92642767501700F25C39 /* Model */,
 				DB9C92662767503300F25C39 /* View */,
 				DB9C92632767500B00F25C39 /* Controller */,
@@ -112,6 +132,7 @@
 				DBD275F927665C01003BD6FD /* Extensions */,
 				DB48FE822766257A00958288 /* Assets.xcassets */,
 				DB48FE872766257A00958288 /* Info.plist */,
+				DB5148B92798363E008A672E /* GoogleService-Info.plist */,
 			);
 			path = Salma;
 			sourceTree = "<group>";
@@ -196,6 +217,14 @@
 			dependencies = (
 			);
 			name = Salma;
+			packageProductDependencies = (
+				DB5148BC279836E3008A672E /* IQKeyboardManagerSwift */,
+				DB5148BF2798374F008A672E /* FirebaseAnalytics */,
+				DB5148C12798374F008A672E /* FirebaseAuth */,
+				DB5148C32798374F008A672E /* FirebaseDatabase */,
+				DB5148C52798374F008A672E /* FirebaseFirestore */,
+				DB5148C72798374F008A672E /* FirebaseStorage */,
+			);
 			productName = Salma;
 			productReference = DB48FE762766257700958288 /* Salma.app */;
 			productType = "com.apple.product-type.application";
@@ -222,8 +251,13 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = DB48FE6D2766257700958288;
+			packageReferences = (
+				DB5148BB279836E3008A672E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				DB5148BE2798374F008A672E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DB48FE772766257700958288 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB48FE862766257A00958288 /* LaunchScreen.storyboard in Resources */,
+				DB5148CD27999096008A672E /* Localisation.strings in Resources */,
 				DB48FE832766257A00958288 /* Assets.xcassets in Resources */,
+				DB5148BA2798363E008A672E /* GoogleService-Info.plist in Resources */,
 				DB48FE812766257700958288 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +319,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DB48FE802766257700958288 /* Base */,
+				DB5148C927998638008A672E /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -291,8 +328,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				DB48FE852766257A00958288 /* Base */,
+				DB5148CA27998639008A672E /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DB5148CF27999096008A672E /* Localisation.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5148CE27999096008A672E /* ar */,
+				DB5148D02799909B008A672E /* en */,
+			);
+			name = Localisation.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -302,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -363,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -494,6 +543,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB5148BB279836E3008A672E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		DB5148BE2798374F008A672E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB5148BC279836E3008A672E /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB5148BB279836E3008A672E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		DB5148BF2798374F008A672E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB5148BE2798374F008A672E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DB5148C12798374F008A672E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB5148BE2798374F008A672E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DB5148C32798374F008A672E /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB5148BE2798374F008A672E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		DB5148C52798374F008A672E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB5148BE2798374F008A672E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DB5148C72798374F008A672E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB5148BE2798374F008A672E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DB48FE6E2766257700958288 /* Project object */;
 }

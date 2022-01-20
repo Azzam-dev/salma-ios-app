@@ -1,0 +1,150 @@
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "1NR-5z-n4d"; */
+"1NR-5z-n4d.configuration.title" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1NR-5z-n4d"; */
+"1NR-5z-n4d.normalTitle" = "التالي";
+
+/* Class = "UILabel"; text = "Breast cancer screening"; ObjectID = "472-5a-dck"; */
+"472-5a-dck.text" = "فحص سرطان الثدي";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "5xG-cF-r85"; */
+"5xG-cF-r85.placeholder" = "الاسم الأول";
+
+/* Class = "UISegmentedControl"; 8hs-22-eC1.segmentTitles[0] = "Yes"; ObjectID = "8hs-22-eC1"; */
+"8hs-22-eC1.segmentTitles[0]" = "نعم";
+
+/* Class = "UISegmentedControl"; 8hs-22-eC1.segmentTitles[1] = "No"; ObjectID = "8hs-22-eC1"; */
+"8hs-22-eC1.segmentTitles[1]" = "لا";
+
+/* Class = "UILabel"; text = "This app is primarily for Women’s Cancer Screening Decision Aid"; ObjectID = "98v-UV-SOa"; */
+"98v-UV-SOa.text" = "هذا التطبيق مخصص بشكل أساسي للمساعدة النساء في اتخاذ قرارات فحص السرطان ";
+
+/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "9Ng-hC-FGq"; */
+"9Ng-hC-FGq.configuration.title" = "السابق";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9Ng-hC-FGq"; */
+"9Ng-hC-FGq.normalTitle" = "السابق";
+
+/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "Ggh-Sx-IHn"; */
+"Ggh-Sx-IHn.configuration.title" = "السابق";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ggh-Sx-IHn"; */
+"Ggh-Sx-IHn.normalTitle" = "السابق";
+
+/* Class = "UIButton"; configuration.title = "​"; ObjectID = "H9B-39-B4D"; */
+"H9B-39-B4D.configuration.title" = "​";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "H9B-39-B4D"; */
+"H9B-39-B4D.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Are you pregnant ?"; ObjectID = "I2H-R7-GQv"; */
+"I2H-R7-GQv.text" = "هل انتي حامل ؟";
+
+/* Class = "UISegmentedControl"; LB9-QC-1Ye.segmentTitles[0] = "Male"; ObjectID = "LB9-QC-1Ye"; */
+"LB9-QC-1Ye.segmentTitles[0]" = "ذكر";
+
+/* Class = "UISegmentedControl"; LB9-QC-1Ye.segmentTitles[1] = "Female"; ObjectID = "LB9-QC-1Ye"; */
+"LB9-QC-1Ye.segmentTitles[1]" = "انثى";
+
+/* Class = "UILabel"; text = "The Technology Assessment in Medicine framework was the framework selected for this project. I chose to use the American Cancer Society guidelines for this project since these resources are frequently used in developing cancer screening guidelines and practice recommendations, and they are available in Arabic and English. Adobe® XD was used as the prototyping tool, I also designed a future evaluation (survey of users) to assess the tools usability and perceived value."; ObjectID = "M5g-Qm-oCb"; */
+"M5g-Qm-oCb.text" = "The Technology Assessment in Medicine framework was the framework selected for this project. I chose to use the American Cancer Society guidelines for this project since these resources are frequently used in developing cancer screening guidelines and practice recommendations, and they are available in Arabic and English. Adobe® XD was used as the prototyping tool, I also designed a future evaluation (survey of users) to assess the tools usability and perceived value.";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "MrE-aj-vGm"; */
+"MrE-aj-vGm.configuration.title" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MrE-aj-vGm"; */
+"MrE-aj-vGm.normalTitle" = "التالي";
+
+/* Class = "UISegmentedControl"; Oye-IV-oOY.segmentTitles[0] = "Pregnant"; ObjectID = "Oye-IV-oOY"; */
+"Oye-IV-oOY.segmentTitles[0]" = "حامل";
+
+/* Class = "UISegmentedControl"; Oye-IV-oOY.segmentTitles[1] = "Not Pregnant"; ObjectID = "Oye-IV-oOY"; */
+"Oye-IV-oOY.segmentTitles[1]" = "لست حامل";
+
+/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "RXR-LZ-f57"; */
+"RXR-LZ-f57.configuration.title" = "السابق";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RXR-LZ-f57"; */
+"RXR-LZ-f57.normalTitle" = "السابق";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "bS0-gj-Dp7"; */
+"bS0-gj-Dp7.placeholder" = "الأسم الأخير";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "c3q-f9-56n"; */
+"c3q-f9-56n.text" = "الملف الشخصي";
+
+/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "czZ-5M-FYG"; */
+"czZ-5M-FYG.configuration.title" = "السابق";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "czZ-5M-FYG"; */
+"czZ-5M-FYG.normalTitle" = "السابق";
+
+/* Class = "UITextField"; text = "18 years old"; ObjectID = "esB-zL-Fwm"; */
+"esB-zL-Fwm.text" = "18 years old";
+
+/* Class = "UILabel"; text = "What’s your date of birth ?"; ObjectID = "fAN-7A-Q2j"; */
+"fAN-7A-Q2j.text" = "ما هو تاريخ ميلادك ؟";
+
+/* Class = "UILabel"; text = "Please tell us for whom you would like to use this application ?"; ObjectID = "fR5-GA-n5p"; */
+"fR5-GA-n5p.text" = "الرجاء إخبارنا لمن ترغب في استخدام هذا التطبيق ؟";
+
+/* Class = "UILabel"; text = "Cancer Screening tests help Saves Lives! Salma is a tool that helps users find what cancer screening tests are recommended for them. Salma does not prevent, diagnose or treat cancer. "; ObjectID = "ihl-ue-aSN"; */
+"ihl-ue-aSN.text" = "تساعد اختبارات فحص السرطان في إنقاذ الأرواح! تطبيق سلمى هو أداة تساعد المستخدمين في العثور على فحوصات السرطان الموصى بها لهم. تطبيق سلمى لا يمنع أو يشخص أو يعالج السرطان.";
+
+/* Class = "UILabel"; text = "Do you smoke ?"; ObjectID = "iqE-ON-udg"; */
+"iqE-ON-udg.text" = "هل تدخنين ؟";
+
+/* Class = "UIButton"; configuration.title = "Start"; ObjectID = "jUc-b8-sG7"; */
+"jUc-b8-sG7.configuration.title" = "ابدأ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jUc-b8-sG7"; */
+"jUc-b8-sG7.normalTitle" = "ابدأ";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "lLZ-hl-qND"; */
+"lLZ-hl-qND.configuration.title" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lLZ-hl-qND"; */
+"lLZ-hl-qND.normalTitle" = "التالي";
+
+/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "ns0-4K-Qak"; */
+"ns0-4K-Qak.configuration.title" = "السابق";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ns0-4K-Qak"; */
+"ns0-4K-Qak.normalTitle" = "السابق";
+
+/* Class = "UISegmentedControl"; pfc-vF-53N.segmentTitles[0] = "Yes"; ObjectID = "pfc-vF-53N"; */
+"pfc-vF-53N.segmentTitles[0]" = "نعم";
+
+/* Class = "UISegmentedControl"; pfc-vF-53N.segmentTitles[1] = "No"; ObjectID = "pfc-vF-53N"; */
+"pfc-vF-53N.segmentTitles[1]" = "لا";
+
+/* Class = "UISegmentedControl"; qZX-1u-7s8.segmentTitles[0] = "Smoker"; ObjectID = "qZX-1u-7s8"; */
+"qZX-1u-7s8.segmentTitles[0]" = "ادخن";
+
+/* Class = "UISegmentedControl"; qZX-1u-7s8.segmentTitles[1] = "Not a Smoker"; ObjectID = "qZX-1u-7s8"; */
+"qZX-1u-7s8.segmentTitles[1]" = "لا ادخن";
+
+/* Class = "UILabel"; text = "News"; ObjectID = "sfw-Rc-e3T"; */
+"sfw-Rc-e3T.text" = "الاخبار";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "tl0-Gx-kSM"; */
+"tl0-Gx-kSM.configuration.title" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tl0-Gx-kSM"; */
+"tl0-Gx-kSM.normalTitle" = "التالي";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "tz0-7w-zFW"; */
+"tz0-7w-zFW.configuration.title" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tz0-7w-zFW"; */
+"tz0-7w-zFW.normalTitle" = "التالي";
+
+/* Class = "UILabel"; text = "Started in Oregon, launched from Riyadh"; ObjectID = "vlc-EC-0Fc"; */
+"vlc-EC-0Fc.text" = "بدأت في ولاية أوريغون ، انطلقت من الرياض";
+
+/* Class = "UILabel"; text = "Hello !"; ObjectID = "wEX-ak-dEw"; */
+"wEX-ak-dEw.text" = "مرحباً !";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "zET-LZ-Mjl"; */
+"zET-LZ-Mjl.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";

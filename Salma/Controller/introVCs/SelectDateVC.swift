@@ -23,9 +23,9 @@ class SelectDateVC: UIViewController {
     func setupQuestionLabel() {
         guard let member = UserDefaults.standard.getMember() else { return }
         if member == .mySelf {
-            questionLabel.text = "What’s your date of birth ?"
+            questionLabel.text = "What’s your date of birth ?".localised()
         } else {
-            questionLabel.text = "What’s your \(member.rawValue)'s\n date of birth ?"
+            questionLabel.text = "What’s her date of birth ?".localised()
         }
         
     }

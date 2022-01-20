@@ -12,8 +12,8 @@ class HomeVC: UIViewController {
     var recommendations = [Recommendation]()
     
     var selectedCellIndexPath: IndexPath?
-    let selectedCellHeight: CGFloat = 200.0
-    let unselectedCellHeight: CGFloat = 88.0
+    let selectedCellHeight: CGFloat = 200
+    let unselectedCellHeight: CGFloat = 95
     
     
     @IBOutlet weak var recommendationsTableView: UITableView!
@@ -27,6 +27,7 @@ class HomeVC: UIViewController {
     func getRecommendations() {
         guard let dateOfBirth = UserDefaults.standard.getDateOfBirth() else { return }
         recommendations = WCSDAService.instance.getCancerScreeningDecisionAid(dateOfBirth: dateOfBirth)
+        
         recommendationsTableView.reloadData()
     }
 

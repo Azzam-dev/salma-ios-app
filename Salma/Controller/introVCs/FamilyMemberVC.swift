@@ -40,7 +40,7 @@ extension FamilyMemberVC: UIPickerViewDelegate, UIPickerViewDataSource {
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return FamilyMember.allCases[row].rawValue.capitalizingFirstLetter()
+        return FamilyMember.allCases[row].rawValue.capitalizingFirstLetter().localised()
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {

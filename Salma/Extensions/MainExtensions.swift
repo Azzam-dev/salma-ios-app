@@ -246,6 +246,14 @@ extension UITextField {
 
 extension String {
     
+    func localised() -> String {
+        return NSLocalizedString(self,
+                                 tableName: "Localisation",
+                                 bundle: .main,
+                                 value: self,
+                                 comment: self)
+    }
+    
     func capitalizingFirstLetter() -> String {
         return prefix(1).uppercased() + self.lowercased().dropFirst()
     }

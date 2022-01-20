@@ -28,7 +28,17 @@ class NavigationVC: UIViewController {
         
         setupCurvedView()
         setupNavigationControllers()
-        // Do any additional setup after loading the view.
+        showSplashAnimation()
+        
+    }
+    
+    let revealingSplashView = RevealingSplashView(iconImage: #imageLiteral(resourceName: "ribbon"), iconInitialSize: CGSize(width: 120, height: 120), backgroundColor: #colorLiteral(red: 0.8274869323, green: 0.9517800212, blue: 0.9784803987, alpha: 1))
+    
+    func showSplashAnimation() {
+        // this is for the revealing splash animation
+        self.view.addSubview(revealingSplashView)
+        revealingSplashView.animationType = .popAndZoomOut
+        revealingSplashView.startAnimation()
     }
     
     func setupNavigationControllers() {
