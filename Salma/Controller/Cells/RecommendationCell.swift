@@ -14,8 +14,8 @@ class RecommendationCell: UITableViewCell {
     @IBOutlet weak var descriptionTextView: UITextView!
     
     func configuration(_ recommendation: Recommendation) {
-        titleLabel.text = recommendation.title
-        descriptionTextView.text = recommendation.description
+        titleLabel.text = recommendation.title.localised()
+        descriptionTextView.text = recommendation.description.localised()
         
         switch recommendation.risk {
         case .none, .low:

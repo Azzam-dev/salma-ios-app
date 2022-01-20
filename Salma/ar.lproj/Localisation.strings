@@ -8,6 +8,7 @@
 "What’s your date of birth ?" = "ما هو تاريخ ميلادك ؟";
 "What’s her date of birth ?" = "ما هو تاريخ ميلادها ؟";
 
+"years old" = "سنة";
 
 "Are you pregnant ?" = "هل انتي حامل ؟";
 "Is she pregnant ?" = "هل هي حامل";
@@ -15,3 +16,32 @@
 
 "Do you smoke ?" = "هل انتي مدخنة";
 "Does she smoke ?" = "هل هي مدخنة";
+
+//Recommendations
+"Colorectal Cancer Testing" = "اختبار سرطان القولون والمستقيم";
+
+"Start testing at age 45. Several types of tests can be used. Talk with a health care provider about which tests are best for you. No matter which test you choose, the most important thing is to get tested" = "ابدأ الاختبار في سن 45. يمكن استخدام عدة أنواع من الاختبارات. تحدث مع مقدم الرعاية الصحية حول الاختبارات الأفضل بالنسبة لك. بغض النظر عن الاختبار الذي تختاره ، فإن أهم شيء هو إجراء الاختبار";
+
+"Find out if you are at high risk for colon or rectal cancer. If not. then no test is needed at this time." = "اكتشف ما إذا كنت معرضًا لخطر كبير للإصابة بسرطان القولون أو المستقيم. إذا لم يكن كذلك. فلا داعي لإجراء اختبار في هذا الوقت.";
+
+
+"Breast Cancer Testing" = "فحص سرطان الثدي";
+
+"Find out if you are at high risk for breast cancer. If not, testing is not needed at this time.\n\n Tell your doctor or nurse right away if you notice any changes in the way your breasts loak or feel." = "اكتشفي ما إذا كنت معرضة لخطر كبير للإصابة بسرطان الثدي. إذا لم يكن الأمر كذلك ، فلن تكون هناك حاجة لإجراء اختبار في هذا الوقت. \ n \ n أخبري طبيبك أو ممرضتك على الفور إذا لاحظت أي تغييرات في طريقة ارتخاء ثدييك أو الشعور به.";
+
+"Women ages 40-44 should have the choice to start breast cancer screening with yearly mammograms. Starting at age 45, get a mammogram every year." = "يمكن للنساء اللواتي تتراوح أعمارهن بين 40 و 44 عامًا الاختيار بين بدء فحص سرطان الثدي باستخدام الماموجرام سنويًا. بدءًا من سن 45 ، يمكنك الحصول على صورة ماموجرام كل عام.";
+
+"Get a mammogram every year between the ages of 45 and 54, then at 55 you should switch to mammograms every 2 years, or continue yeary screening as long as you are in good health." = "احصلي على تصوير ماموجرام كل عام بين سن 45 و 54 ، ثم في سن 55 يجب عليكِ التحول إلى تصوير ماموجرام كل سنتين ، أو الاستمرار في الفحص السنوي طالما أنكِ بصحة جيدة.";
+
+
+"Cervical Cancer Testing" = "فحص سرطان عنق الرحم";
+
+"Women ages 30-65 should get a Pap test and an HPV test every 5 years, or get a Pap test every 3 years. Women 66 and older who have had normal Pap tests on a regular basis can stop testing. Women who have had a serious cervical pre-cancer should be tested for at least 20 years after the diagnosis." = "يجب أن تخضع النساء اللواتي تتراوح أعمارهن بين 30 و 65 عامًا لاختبار مسحة عنق الرحم واختبار فيروس الورم الحليمي البشري كل 5 سنوات ، أو إجراء اختبار مسحة عنق الرحم كل 3 سنوات. ويمكن للنساء اللاتي يبلغن من العمر 66 عامًا أو أكثر ممن خضعن لاختبارات عنق الرحم بشكل منتظم التوقف عن الاختبار. يجب اختبار سرطان عنق الرحم الخطير لمدة 20 عامًا على الأقل بعد التشخيص. ";
+
+"Screening should be done every 3 years With a Pap test" = "يجب إجراء الفحص كل 3 سنوات باختبار عنق الرحم";
+
+"Lung Cancer Testing" = "اختبار سرطان الرئة";
+
+"A yearly low-dose CT scan may benefit you if you are a current or formersmoker ages 55-74 and in fairly good health" = "قد يفيدك التصوير المقطعي المحوسب بجرعة منخفضة سنويًا إذا كنت مدخنًا حاليًا أو سابقًا تتراوح أعمارهم بين 55 و 74 عامًا وتتمتع بصحة جيدة إلى حد ما";
+
+"No test is needed at this time." = "ليس هناك حاجة لأداء فحص في الوقت الحالي";

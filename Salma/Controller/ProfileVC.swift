@@ -48,7 +48,7 @@ class ProfileVC: UIViewController {
         datePicker.date = dateOfBirth
         let currentYear = Calendar.current.dateComponents([.year], from: Date()).year!
         let birthYear = Calendar.current.dateComponents([.year], from: dateOfBirth).year!
-        ageTextField.text = "\(currentYear - birthYear) years old"
+        ageTextField.text = "\(currentYear - birthYear) " + "years old".localised()
         
     }
     

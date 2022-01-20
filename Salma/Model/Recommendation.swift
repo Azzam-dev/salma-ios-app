@@ -37,7 +37,7 @@ struct Recommendation {
         case .colorectal:
             switch risk {
             case .medium, .high:
-                description = "Start testing at age 45. Several types of tests can be used. Talk with a health care provider about which tests are best for you. No matter which test you choose, the most important thing if to get tested"
+                description = "Start testing at age 45. Several types of tests can be used. Talk with a health care provider about which tests are best for you. No matter which test you choose, the most important thing is to get tested"
             default:
                 description = "Find out if you are at high risk for colon or rectal cancer. If not. then no test is needed at this time."
             }
